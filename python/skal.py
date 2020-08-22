@@ -1,3 +1,6 @@
+# env
+$ source ~/.venv/3.8/bin/activate
+
 # input
 
 ## 整数
@@ -5,6 +8,12 @@ x = int(iput())
 
 ## 文字列
 x = input()
+
+## 文字列を1文字に分割して配列に代入
+>>> lst = list(input())
+ABCDE
+>>> lst
+['A', 'B', 'C', 'D', 'E']
 
 ## スペース区切りの整数を複数の変数に代入
 x, y = map(int, input().split())
