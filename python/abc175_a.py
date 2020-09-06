@@ -1,11 +1,13 @@
-ct_max = 0
-ct = 0
-for s in list(input()):
-    if s == 'R':
-        ct += 1
-    else:
-        ct = 0
-    if ct > ct_max:
-        ct_max = ct
+# print(max([len(v) for v in input().split('S')]))
 
-print(ct_max)
+d = {
+    'RRR': 3,
+    'RRS': 2,
+    'RSR': 1,
+    'RSS': 1,
+    'SRR': 2,
+    'SRS': 1,
+    'SSR': 1,
+    'SSS': 0,
+}
+print(d[input()])
