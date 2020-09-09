@@ -23,9 +23,9 @@
 ### 全探索
 
 - [x] [AtCoder Beginner Contest 144 B - 81　基礎の基礎です。](https://atcoder.jp/contests/abc144/submissions/16594869)
-- [x] AtCoder Beginner Contest 150 B - Count ABC　全探索というか、「全通り調べ上げます」。
-  'ABC' を数え上げる問題
-  全探索の練習のためそのように回答したが、str.count() 関数でも正解できる
+- [x] [AtCoder Beginner Contest 150 B - Count ABC　全探索というか、「全通り調べ上げます」。](https://atcoder.jp/contests/abc150/submissions/16603299)
+  'ABC' を数え上げる問題<br>
+  全探索の練習のためそのように回答したが、str.count() 関数でも正解できる<br>
   ```
   _ = input()
   purint(input().count('ABC'))
