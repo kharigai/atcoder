@@ -74,6 +74,16 @@ lst = [[int(n) for n in input().split()] for i in range(k)]
 >>> max(lst)
 7
 
+# lib
+
+## chkmax
+def chkmax(a, b):
+    return a if a > b else b
+
+## chkmin
+def chkmax(a, b):
+    return a if a < b else b
+
 ## union find
 ## https://note.nkmk.me/python-union-find/
 class UnionFind():
