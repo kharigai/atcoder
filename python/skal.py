@@ -66,23 +66,21 @@ lst = [[int(n) for n in input().split()] for i in range(k)]
 >>> sum(lst)
 34
 
-## 配列の最大値
+## 配列の最大値(カンマ区切りでも OK max(1, 2, 3))
 >>> max(lst)
 10
 
-## 配列の最小値
+## 配列の最小値(カンマ区切りでも OK min(1,2 3))
 >>> max(lst)
 7
 
+## ゼロ埋め 
+## [Pythonで文字列・数値をゼロ埋め（ゼロパディング）](https://note.nkmk.me/python-zero-padding/)
+>>> '123'.zfill(5)
+'00123'
+
 # lib
 
-## chkmax
-def chkmax(a, b):
-    return a if a > b else b
-
-## chkmin
-def chkmax(a, b):
-    return a if a < b else b
 
 ## union find
 ## https://note.nkmk.me/python-union-find/
