@@ -4,7 +4,7 @@ $ source ~/.venv/3.8/bin/activate
 # input
 
 ## 整数
-x = int(iput())
+x = int(input())
 
 ## 文字列
 x = input()
